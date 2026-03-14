@@ -58,6 +58,8 @@ RSpec.describe Legion::Extensions::CognitiveTide::Helpers::TideEngine do
     end
 
     it 'is deterministic for the same time' do
+      t = Time.utc(2026, 1, 1, 12, 0, 0)
+      allow(Time).to receive(:now).and_return(t)
       add_primary
       expect(engine.composite_tide_level).to eq(engine.composite_tide_level)
     end
