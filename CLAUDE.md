@@ -106,10 +106,9 @@ The `engine:` kwarg enables dependency injection for testing — each runner met
 
 ## Integration Points
 
-- **lex-tick**: `tide_check` phase or `dormant` mode can delegate to `check_tide`; low tide aligns with `dormant_active` dream mode
-- **lex-memory**: pool domains map naturally to memory trace domains; harvested ideas feed `reinforce` calls
-- **lex-emotion**: arousal/valence can modulate oscillator amplitude (high-arousal → boosted primary oscillator)
-- **lex-cortex**: wires tide checks into the phase handler hash; `deposit_to_pool` called during `dormant` phases
+- **lex-tick**: not currently wired in lex-cortex's PHASE_MAP — must be called manually; low tide aligns conceptually with `dormant_active` dream mode
+- **lex-memory**: pool domains map naturally to memory trace domains; harvested ideas can feed `reinforce` calls
+- **lex-emotion**: arousal/valence can modulate oscillator amplitude (high-arousal -> boosted primary oscillator)
 
 ## Development Notes
 
