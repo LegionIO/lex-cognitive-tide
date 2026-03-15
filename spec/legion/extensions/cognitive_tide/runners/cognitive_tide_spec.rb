@@ -211,4 +211,39 @@ RSpec.describe Legion::Extensions::CognitiveTide::Runners::CognitiveTide do
       expect(result[:success]).to be(true)
     end
   end
+
+  describe '.tide_maintenance' do
+    before { engine.add_oscillator(oscillator_type: :primary, period: 86_400) }
+
+    it 'returns pools_maintained, current_phase, and tide_level' do
+      result = runner.tide_maintenance(engine: engine)
+      expect(result).to include(:pools_maintained, :current_phase, :tide_level)
+    end
+
+    it 'returns pools_maintained as an integer' do
+      expect(runner.tide_maintenance(engine: engine)[:pools_maintained]).to be_a(Integer)
+    end
+
+    it 'returns a valid phase symbol' do
+      phase = runner.tide_maintenance(engine: engine)[:current_phase]
+      expect(Legion::Extensions::CognitiveTide::Helpers::Constants::TIDE_PHASES).to include(phase)
+    end
+
+    it 'returns tide_level in [0, 1]' do
+      level = runner.tide_maintenance(engine: engine)[:tide_level]
+      expect(level).to be >= 0.0
+      expect(level).to be <= 1.0
+    end
+
+    it 'reflects deposited pools in pools_maintained' do
+      engine.deposit_to_pool(domain: 'ideas', item: 'test idea')
+      result = runner.tide_maintenance(engine: engine)
+      expect(result[:pools_maintained]).to eq(1)
+    end
+
+    it 'accepts ** splat kwargs' do
+      result = runner.tide_maintenance(extra: 'ignored', engine: engine)
+      expect(result).to include(:pools_maintained)
+    end
+  end
 end

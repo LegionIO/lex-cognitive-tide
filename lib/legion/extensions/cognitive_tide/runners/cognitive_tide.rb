@@ -95,6 +95,17 @@ module Legion
             { success: false, error: e.message }
           end
 
+          def tide_maintenance(engine: nil, **)
+            eng = engine || tide_engine
+            eng.evaporate_all!
+            eng.oscillators.each(&:tick!)
+            pools_maintained = eng.pools.size
+            phase            = eng.current_phase
+            level            = eng.composite_tide_level
+            Legion::Logging.debug "[tide] maintenance: pools=#{pools_maintained} phase=#{phase} level=#{level}"
+            { pools_maintained: pools_maintained, current_phase: phase, tide_level: level }
+          end
+
           private
 
           def tide_engine
