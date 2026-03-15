@@ -29,7 +29,10 @@ lib/legion/extensions/cognitive_tide/
                     #   create_pool, deposit_to_pool, harvest_pools, evaporate_all!, tide_forecast,
                     #   high_tide?, low_tide?, tide_report
   runners/
-    cognitive_tide.rb  # add_oscillator, check_tide, deposit_idea, harvest, tide_forecast, tide_status
+    cognitive_tide.rb  # add_oscillator, check_tide, deposit_idea, harvest, tide_forecast, tide_status,
+                       # tide_maintenance
+  actors/
+    tide_cycle.rb      # TideCycle - Every 60s, calls tide_maintenance
   client.rb
 spec/
   legion/extensions/cognitive_tide/
@@ -40,6 +43,8 @@ spec/
       tide_engine_spec.rb
     runners/
       cognitive_tide_spec.rb
+    actors/
+      tide_cycle_spec.rb
     client_spec.rb
 ```
 
@@ -98,6 +103,12 @@ Pools accumulate ideas during low tide and are harvested only when tide is `:ris
 
 `MAX_POOLS = 50` limits total pools per engine instance.
 
+## Actors
+
+| Actor | Interval | Runner Method | What It Does |
+|-------|----------|---------------|--------------|
+| `TideCycle` | Every 60s | `tide_maintenance` | Calls `evaporate_all!` on all tidal pools (removes oldest items at `POOL_EVAPORATION_RATE`), then calls `tick!` on each oscillator to advance their internal time state |
+
 ## Runner Pattern
 
 All runners use `extend self`, `**` splat, `engine: nil` injection, and return `{ success: true/false, ... }` hashes. `rescue ArgumentError` at runner boundary prevents propagation.
@@ -116,3 +127,4 @@ The `engine:` kwarg enables dependency injection for testing — each runner met
 - `TideEngine#previous_level` looks back `FORECAST_RESOLUTION` seconds (300s default) to determine phase direction
 - `in_phase_with?` uses combined amplitude as tolerance denominator — zero-amplitude oscillators are never in phase
 - Specs mock `Time.now` with `allow(Time).to receive(:now).and_return(t)` for deterministic tide level assertions
+- `tide_maintenance` is the only runner method that advances oscillator state — without the `TideCycle` actor running, oscillators compute tide level from wall-clock time directly via `value_at(Time.now)` but do not advance via `tick!`
