@@ -30,6 +30,12 @@ client.deposit_idea(domain: 'architecture', idea: 'refactor the auth layer', tid
 client.harvest(min_depth: 0.1)
 ```
 
+## Actors
+
+| Actor | Interval | What It Does |
+|-------|----------|--------------|
+| `TideCycle` | Every 60s | Advances oscillators via `tick!` and evaporates all tidal pools at `POOL_EVAPORATION_RATE` |
+
 ## License
 
 MIT
