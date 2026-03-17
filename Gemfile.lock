@@ -1,7 +1,257 @@
 PATH
+  remote: ../../legion-gaia
+  specs:
+    legion-gaia (0.8.0)
+      base64
+      legion-json
+      legion-logging
+      lex-abductive-reasoning
+      lex-affordance
+      lex-agency
+      lex-analogical-reasoning
+      lex-anchoring
+      lex-anosognosia
+      lex-appraisal
+      lex-argument-mapping
+      lex-arousal
+      lex-attention
+      lex-attention-economy
+      lex-attention-regulation
+      lex-attention-schema
+      lex-attention-spotlight
+      lex-attention-switching
+      lex-attentional-blink
+      lex-bayesian-belief
+      lex-belief-revision
+      lex-bias
+      lex-causal-attribution
+      lex-causal-reasoning
+      lex-cognitive-alchemy
+      lex-cognitive-anchor
+      lex-cognitive-apprenticeship
+      lex-cognitive-archaeology
+      lex-cognitive-architecture
+      lex-cognitive-aurora
+      lex-cognitive-autopilot
+      lex-cognitive-avalanche
+      lex-cognitive-blindspot
+      lex-cognitive-boundary
+      lex-cognitive-catalyst
+      lex-cognitive-chrysalis
+      lex-cognitive-chunking
+      lex-cognitive-cocoon
+      lex-cognitive-coherence
+      lex-cognitive-compass
+      lex-cognitive-compression
+      lex-cognitive-constellation
+      lex-cognitive-contagion
+      lex-cognitive-control
+      lex-cognitive-debt
+      lex-cognitive-debugging
+      lex-cognitive-defusion
+      lex-cognitive-disengagement
+      lex-cognitive-dissonance-resolution
+      lex-cognitive-dwell
+      lex-cognitive-echo
+      lex-cognitive-echo-chamber
+      lex-cognitive-empathy
+      lex-cognitive-entrainment
+      lex-cognitive-erosion
+      lex-cognitive-fatigue-model
+      lex-cognitive-fermentation
+      lex-cognitive-fingerprint
+      lex-cognitive-flexibility
+      lex-cognitive-flexibility-training
+      lex-cognitive-fossil-fuel
+      lex-cognitive-friction
+      lex-cognitive-furnace
+      lex-cognitive-garden
+      lex-cognitive-genesis
+      lex-cognitive-grammar
+      lex-cognitive-gravity
+      lex-cognitive-greenhouse
+      lex-cognitive-hologram
+      lex-cognitive-homeostasis
+      lex-cognitive-horizon
+      lex-cognitive-hourglass
+      lex-cognitive-immune-memory
+      lex-cognitive-immune-response
+      lex-cognitive-immunology
+      lex-cognitive-inertia
+      lex-cognitive-integration
+      lex-cognitive-kaleidoscope
+      lex-cognitive-labyrinth
+      lex-cognitive-lens
+      lex-cognitive-lighthouse
+      lex-cognitive-liminal
+      lex-cognitive-load
+      lex-cognitive-load-balancing
+      lex-cognitive-lucidity
+      lex-cognitive-magnet
+      lex-cognitive-map
+      lex-cognitive-metabolism
+      lex-cognitive-mirror
+      lex-cognitive-momentum
+      lex-cognitive-mosaic
+      lex-cognitive-mycelium
+      lex-cognitive-narrative-arc
+      lex-cognitive-nostalgia
+      lex-cognitive-offloading
+      lex-cognitive-origami
+      lex-cognitive-paleontology
+      lex-cognitive-palimpsest
+      lex-cognitive-pendulum
+      lex-cognitive-phantom
+      lex-cognitive-plasticity
+      lex-cognitive-prism
+      lex-cognitive-quicksand
+      lex-cognitive-quicksilver
+      lex-cognitive-reappraisal
+      lex-cognitive-reserve
+      lex-cognitive-resonance
+      lex-cognitive-rhythm
+      lex-cognitive-scaffolding
+      lex-cognitive-surplus
+      lex-cognitive-symbiosis
+      lex-cognitive-synesthesia
+      lex-cognitive-synthesis
+      lex-cognitive-tapestry
+      lex-cognitive-tectonics
+      lex-cognitive-telescope
+      lex-cognitive-tempo
+      lex-cognitive-tessellation
+      lex-cognitive-tide
+      lex-cognitive-triage
+      lex-cognitive-volcano
+      lex-cognitive-weather
+      lex-cognitive-weathering
+      lex-cognitive-whirlpool
+      lex-cognitive-zeitgeist
+      lex-coldstart
+      lex-conceptual-blending
+      lex-conceptual-metaphor
+      lex-confabulation
+      lex-conflict
+      lex-conscience
+      lex-consent
+      lex-context
+      lex-cortex
+      lex-counterfactual
+      lex-creativity
+      lex-curiosity
+      lex-decision-fatigue
+      lex-default-mode-network
+      lex-dissonance
+      lex-distributed-cognition
+      lex-dream
+      lex-dual-process
+      lex-embodied-simulation
+      lex-emotion
+      lex-emotional-regulation
+      lex-empathy
+      lex-enactive-cognition
+      lex-episodic-buffer
+      lex-epistemic-curiosity
+      lex-epistemic-vigilance
+      lex-error-monitoring
+      lex-executive-function
+      lex-expectation-violation
+      lex-extinction
+      lex-fatigue
+      lex-feature-binding
+      lex-flow
+      lex-frame-semantics
+      lex-free-energy
+      lex-gestalt
+      lex-global-workspace
+      lex-goal-management
+      lex-governance
+      lex-habit
+      lex-hebbian-assembly
+      lex-homeostasis
+      lex-hypothesis-testing
+      lex-identity
+      lex-imagination
+      lex-inhibition
+      lex-inner-speech
+      lex-interoception
+      lex-intuition
+      lex-joint-attention
+      lex-language
+      lex-latent-inhibition
+      lex-learning-rate
+      lex-memory
+      lex-mental-simulation
+      lex-mental-time-travel
+      lex-mentalizing
+      lex-mesh
+      lex-meta-learning
+      lex-metacognition
+      lex-metacognitive-monitoring
+      lex-mind-growth
+      lex-mirror
+      lex-mood
+      lex-moral-reasoning
+      lex-motivation
+      lex-narrative-identity
+      lex-narrative-reasoning
+      lex-narrative-self
+      lex-narrator
+      lex-neural-oscillation
+      lex-neuromodulation
+      lex-perceptual-inference
+      lex-personality
+      lex-perspective-shifting
+      lex-phenomenal-binding
+      lex-planning
+      lex-pragmatic-inference
+      lex-prediction
+      lex-predictive-coding
+      lex-predictive-processing
+      lex-preference-learning
+      lex-priming
+      lex-privatecore
+      lex-procedural-learning
+      lex-prospection
+      lex-prospective-memory
+      lex-qualia
+      lex-reality-testing
+      lex-reflection
+      lex-relevance-theory
+      lex-resilience
+      lex-reward
+      lex-salience
+      lex-schema
+      lex-self-model
+      lex-self-talk
+      lex-semantic-memory
+      lex-semantic-priming
+      lex-semantic-satiation
+      lex-sensory-gating
+      lex-signal-detection
+      lex-situation-model
+      lex-social
+      lex-social-learning
+      lex-somatic-marker
+      lex-source-monitoring
+      lex-subliminal
+      lex-surprise
+      lex-swarm
+      lex-swarm-github
+      lex-temporal
+      lex-temporal-discounting
+      lex-theory-of-mind
+      lex-tick
+      lex-transfer-learning
+      lex-trust
+      lex-uncertainty-tolerance
+      lex-volition
+      lex-working-memory
+
+PATH
   remote: .
   specs:
-    lex-cognitive-tide (0.1.0)
+    lex-cognitive-tide (0.1.1)
 
 GEM
   remote: https://rubygems.org/
@@ -9,16 +259,265 @@ GEM
     addressable (2.8.9)
       public_suffix (>= 2.0.2, < 8.0)
     ast (2.4.3)
+    base64 (0.3.0)
     bigdecimal (4.0.1)
     diff-lcs (1.6.2)
     json (2.19.1)
     json-schema (6.2.0)
       addressable (~> 2.8)
       bigdecimal (>= 3.1, < 5)
+    json_pure (2.8.1)
     language_server-protocol (3.17.0.5)
+    legion-json (1.2.0)
+      json_pure
+      multi_json
+    legion-logging (1.2.2)
+      rainbow (~> 3)
+    lex-abductive-reasoning (0.1.0)
+    lex-affordance (0.1.0)
+    lex-agency (0.1.0)
+    lex-analogical-reasoning (0.1.0)
+    lex-anchoring (0.1.0)
+    lex-anosognosia (0.1.0)
+    lex-appraisal (0.1.0)
+    lex-argument-mapping (0.1.0)
+    lex-arousal (0.1.0)
+    lex-attention (0.1.0)
+    lex-attention-economy (0.1.0)
+    lex-attention-regulation (0.1.0)
+    lex-attention-schema (0.1.0)
+    lex-attention-spotlight (0.1.0)
+    lex-attention-switching (0.1.0)
+    lex-attentional-blink (0.1.0)
+    lex-bayesian-belief (0.1.0)
+    lex-belief-revision (0.1.0)
+    lex-bias (0.1.0)
+    lex-causal-attribution (0.1.0)
+    lex-causal-reasoning (0.1.0)
+    lex-cognitive-alchemy (0.1.0)
+    lex-cognitive-anchor (0.1.0)
+    lex-cognitive-apprenticeship (0.1.0)
+    lex-cognitive-archaeology (0.1.0)
+    lex-cognitive-architecture (0.1.0)
+    lex-cognitive-aurora (0.1.0)
+    lex-cognitive-autopilot (0.1.0)
+    lex-cognitive-avalanche (0.1.0)
+    lex-cognitive-blindspot (0.1.0)
+    lex-cognitive-boundary (0.1.0)
+    lex-cognitive-catalyst (0.1.0)
+    lex-cognitive-chrysalis (0.1.0)
+    lex-cognitive-chunking (0.1.0)
+    lex-cognitive-cocoon (0.1.0)
+    lex-cognitive-coherence (0.1.0)
+    lex-cognitive-compass (0.1.0)
+    lex-cognitive-compression (0.1.0)
+    lex-cognitive-constellation (0.1.0)
+    lex-cognitive-contagion (0.1.0)
+    lex-cognitive-control (0.1.0)
+    lex-cognitive-debt (0.1.0)
+    lex-cognitive-debugging (0.1.0)
+    lex-cognitive-defusion (0.1.0)
+    lex-cognitive-disengagement (0.1.0)
+    lex-cognitive-dissonance-resolution (0.1.0)
+    lex-cognitive-dwell (0.1.0)
+    lex-cognitive-echo (0.1.0)
+    lex-cognitive-echo-chamber (0.1.0)
+    lex-cognitive-empathy (0.1.0)
+    lex-cognitive-entrainment (0.1.0)
+    lex-cognitive-erosion (0.1.0)
+    lex-cognitive-fatigue-model (0.1.0)
+    lex-cognitive-fermentation (0.1.0)
+    lex-cognitive-fingerprint (0.1.0)
+    lex-cognitive-flexibility (0.1.0)
+    lex-cognitive-flexibility-training (0.1.0)
+    lex-cognitive-fossil-fuel (0.1.0)
+    lex-cognitive-friction (0.1.0)
+    lex-cognitive-furnace (0.1.0)
+    lex-cognitive-garden (0.1.0)
+    lex-cognitive-genesis (0.1.0)
+    lex-cognitive-grammar (0.1.0)
+    lex-cognitive-gravity (0.1.0)
+    lex-cognitive-greenhouse (0.1.0)
+    lex-cognitive-hologram (0.1.0)
+    lex-cognitive-homeostasis (0.1.0)
+    lex-cognitive-horizon (0.1.0)
+    lex-cognitive-hourglass (0.1.0)
+    lex-cognitive-immune-memory (0.1.0)
+    lex-cognitive-immune-response (0.1.0)
+    lex-cognitive-immunology (0.1.0)
+    lex-cognitive-inertia (0.1.0)
+    lex-cognitive-integration (0.1.0)
+    lex-cognitive-kaleidoscope (0.1.0)
+    lex-cognitive-labyrinth (0.1.0)
+    lex-cognitive-lens (0.1.0)
+    lex-cognitive-lighthouse (0.1.0)
+    lex-cognitive-liminal (0.1.0)
+    lex-cognitive-load (0.1.0)
+    lex-cognitive-load-balancing (0.1.0)
+    lex-cognitive-lucidity (0.1.0)
+    lex-cognitive-magnet (0.1.0)
+    lex-cognitive-map (0.1.0)
+    lex-cognitive-metabolism (0.1.0)
+    lex-cognitive-mirror (0.1.0)
+    lex-cognitive-momentum (0.1.0)
+    lex-cognitive-mosaic (0.1.0)
+    lex-cognitive-mycelium (0.1.0)
+    lex-cognitive-narrative-arc (0.1.0)
+    lex-cognitive-nostalgia (0.1.0)
+    lex-cognitive-offloading (0.1.0)
+    lex-cognitive-origami (0.1.0)
+    lex-cognitive-paleontology (0.1.0)
+    lex-cognitive-palimpsest (0.1.0)
+    lex-cognitive-pendulum (0.1.0)
+    lex-cognitive-phantom (0.1.0)
+    lex-cognitive-plasticity (0.1.0)
+    lex-cognitive-prism (0.1.0)
+    lex-cognitive-quicksand (0.1.0)
+    lex-cognitive-quicksilver (0.1.0)
+    lex-cognitive-reappraisal (0.1.1)
+    lex-cognitive-reserve (0.1.0)
+    lex-cognitive-resonance (0.1.0)
+    lex-cognitive-rhythm (0.1.0)
+    lex-cognitive-scaffolding (0.1.0)
+    lex-cognitive-surplus (0.1.0)
+    lex-cognitive-symbiosis (0.1.0)
+    lex-cognitive-synesthesia (0.1.0)
+    lex-cognitive-synthesis (0.1.0)
+    lex-cognitive-tapestry (0.1.0)
+    lex-cognitive-tectonics (0.1.0)
+    lex-cognitive-telescope (0.1.0)
+    lex-cognitive-tempo (0.1.0)
+    lex-cognitive-tessellation (0.1.0)
+    lex-cognitive-triage (0.1.0)
+    lex-cognitive-volcano (0.1.0)
+    lex-cognitive-weather (0.1.0)
+    lex-cognitive-weathering (0.1.0)
+    lex-cognitive-whirlpool (0.1.0)
+    lex-cognitive-zeitgeist (0.1.0)
+    lex-coldstart (0.1.0)
+    lex-conceptual-blending (0.1.0)
+    lex-conceptual-metaphor (0.1.0)
+    lex-confabulation (0.1.0)
+    lex-conflict (0.1.1)
+    lex-conscience (0.1.0)
+    lex-consent (0.2.0)
+    lex-context (0.1.0)
+    lex-cortex (0.2.0)
+    lex-counterfactual (0.1.0)
+    lex-creativity (0.1.0)
+    lex-curiosity (0.1.0)
+    lex-decision-fatigue (0.1.0)
+    lex-default-mode-network (0.1.0)
+    lex-dissonance (0.1.0)
+    lex-distributed-cognition (0.1.0)
+    lex-dream (0.1.1)
+    lex-dual-process (0.1.0)
+    lex-embodied-simulation (0.1.0)
+    lex-emotion (0.1.1)
+    lex-emotional-regulation (0.1.0)
+    lex-empathy (0.1.0)
+    lex-enactive-cognition (0.1.0)
+    lex-episodic-buffer (0.1.0)
+    lex-epistemic-curiosity (0.1.0)
+    lex-epistemic-vigilance (0.1.0)
+    lex-error-monitoring (0.1.0)
+    lex-executive-function (0.1.0)
+    lex-expectation-violation (0.1.0)
+    lex-extinction (0.2.0)
+    lex-fatigue (0.1.0)
+    lex-feature-binding (0.1.0)
+    lex-flow (0.1.0)
+    lex-frame-semantics (0.1.0)
+    lex-free-energy (0.1.0)
+    lex-gestalt (0.1.0)
+    lex-global-workspace (0.1.0)
+    lex-goal-management (0.1.0)
+    lex-governance (0.1.1)
+    lex-habit (0.1.0)
+    lex-hebbian-assembly (0.1.0)
+    lex-homeostasis (0.1.0)
+    lex-hypothesis-testing (0.1.0)
+    lex-identity (0.2.0)
+    lex-imagination (0.1.0)
+    lex-inhibition (0.1.0)
+    lex-inner-speech (0.1.0)
+    lex-interoception (0.1.0)
+    lex-intuition (0.1.0)
+    lex-joint-attention (0.1.0)
+    lex-language (0.1.0)
+    lex-latent-inhibition (0.1.0)
+    lex-learning-rate (0.1.0)
+    lex-memory (0.1.2)
+    lex-mental-simulation (0.1.0)
+    lex-mental-time-travel (0.1.0)
+    lex-mentalizing (0.1.0)
+    lex-mesh (0.1.1)
+    lex-meta-learning (0.1.0)
+    lex-metacognition (0.1.0)
+    lex-metacognitive-monitoring (0.1.0)
+    lex-mind-growth (0.1.0)
+    lex-mirror (0.1.0)
+    lex-mood (0.1.0)
+    lex-moral-reasoning (0.1.1)
+    lex-motivation (0.1.0)
+    lex-narrative-identity (0.1.0)
+    lex-narrative-reasoning (0.1.0)
+    lex-narrative-self (0.1.0)
+    lex-narrator (0.1.1)
+    lex-neural-oscillation (0.1.0)
+    lex-neuromodulation (0.1.0)
+    lex-perceptual-inference (0.1.0)
+    lex-personality (0.1.0)
+    lex-perspective-shifting (0.1.0)
+    lex-phenomenal-binding (0.1.0)
+    lex-planning (0.1.0)
+    lex-pragmatic-inference (0.1.0)
+    lex-prediction (0.1.1)
+    lex-predictive-coding (0.1.0)
+    lex-predictive-processing (0.1.0)
+    lex-preference-learning (0.1.0)
+    lex-priming (0.1.0)
+    lex-privatecore (0.1.1)
+    lex-procedural-learning (0.1.0)
+    lex-prospection (0.1.0)
+    lex-prospective-memory (0.1.0)
+    lex-qualia (0.1.0)
+    lex-reality-testing (0.1.0)
+    lex-reflection (0.1.1)
+    lex-relevance-theory (0.1.0)
+    lex-resilience (0.1.0)
+    lex-reward (0.1.0)
+    lex-salience (0.1.0)
+    lex-schema (0.1.0)
+    lex-self-model (0.1.0)
+    lex-self-talk (0.1.1)
+    lex-semantic-memory (0.1.0)
+    lex-semantic-priming (0.1.0)
+    lex-semantic-satiation (0.1.0)
+    lex-sensory-gating (0.1.0)
+    lex-signal-detection (0.1.0)
+    lex-situation-model (0.1.0)
+    lex-social (0.1.0)
+    lex-social-learning (0.1.0)
+    lex-somatic-marker (0.1.0)
+    lex-source-monitoring (0.1.0)
+    lex-subliminal (0.1.0)
+    lex-surprise (0.1.0)
+    lex-swarm (0.1.1)
+    lex-swarm-github (0.1.1)
+    lex-temporal (0.1.0)
+    lex-temporal-discounting (0.1.0)
+    lex-theory-of-mind (0.1.0)
+    lex-tick (0.1.0)
+    lex-transfer-learning (0.1.0)
+    lex-trust (0.1.0)
+    lex-uncertainty-tolerance (0.1.0)
+    lex-volition (0.1.0)
+    lex-working-memory (0.1.0)
     lint_roller (1.1.0)
     mcp (0.8.0)
       json-schema (>= 4.1)
+    multi_json (1.19.1)
     parallel (1.27.0)
     parser (3.3.10.2)
       ast (~> 2.4.1)
@@ -69,6 +568,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  legion-gaia!
   lex-cognitive-tide!
   rspec (~> 3.13)
   rubocop (~> 1.75)
