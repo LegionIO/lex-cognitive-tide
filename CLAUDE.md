@@ -11,7 +11,7 @@ Circadian-like cognitive rhythm engine for the LegionIO cognitive architecture. 
 ## Gem Info
 
 - **Gem name**: `lex-cognitive-tide`
-- **Version**: `0.1.0`
+- **Version**: `0.1.1`
 - **Module**: `Legion::Extensions::CognitiveTide`
 - **Ruby**: `>= 3.4`
 - **License**: MIT
